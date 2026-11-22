@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.rongmc.cinematiclyrics.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["LetterboxLyricsMixin", "SdlKeyStateMixin"],
+  "injectors": {"defaultRequire": 1}
+}
