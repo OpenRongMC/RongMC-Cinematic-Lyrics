@@ -2,32 +2,17 @@
 
 [简体中文](./README.md) · English
 
-Displays the current lyrics and available translations from MuoniumPlayer in the lower letterbox of Ji AFK Cinematic. Availability depends on the track and the data supplied by the player.
 
-## Download and installation
+Adds song subtitles to the Ji AFK Cinematic letterbox. When MuoniumPlayer supplies lyrics and a translation, both can appear beneath the scene as the track plays.
 
-- Version · [v0.1.1+26.3](https://github.com/OpenRongMC/RongMC-Cinematic-Lyrics/releases/tag/v0.1.1%2B26.3) (Release)
-- Release asset · `rongmc-cinematic-lyrics-0.1.1.26.3.jar`
-- Runtime · Minecraft Java 26.3, Fabric, Java 25
-- Fabric Loader · `>=0.20.1`
-- Fabric mod ID · `rongmc_cinematic_lyrics`
-- Dependencies declared by the JAR · `ji-afk-cinematic` `2.4.0`
+## In game
 
-Place the release JAR in the instance’s `mods/` directory. Client-side. Use the Ji AFK Cinematic version required by the release and a compatible MuoniumPlayer build. Recheck the overlay when either host mod is upgraded.
+Play a song in MuoniumPlayer and enter Cinematic mode. Tracks with no lyric data leave the subtitle area empty. This build targets Ji AFK Cinematic 2.4.0 and includes an SDL key-state adaptation.
 
-## How to try it
+## Installation
 
-Play a track known to have lyrics, trigger Cinematic mode and check lyric changes, translations and returning to normal UI. A track without lyrics should leave the overlay empty.
-
-## Development
-
-See [`build.sh`](./build.sh) for the build entry point. Check its workspace paths and dependencies before running it.
-
-## Documentation and support
-
-- [Previous README (historical guide, contributors and credits)](https://github.com/OpenRongMC/RongMC-Cinematic-Lyrics/blob/778c22400617b4bfaad18f3a1f5669ecde62b467/README.md)
-- [Report a RongMC port issue](https://github.com/OpenRongMC/RongMC-Cinematic-Lyrics/issues) · Include the game version, client and server JAR names, reproduction steps and relevant logs.
+Download **v0.1.1+26.3** from [GitHub Releases](https://github.com/OpenRongMC/RongMC-Cinematic-Lyrics/releases/tag/v0.1.1%2B26.3) for Minecraft Java **26.3** on **Fabric** with **Java 25**. Place the release JAR in the instance’s `mods/` directory. Client-side. Use the Ji AFK Cinematic version required by the release and a compatible MuoniumPlayer build. Recheck the overlay when either host mod is upgraded.
 
 ## License and credits
 
-See this repository’s [LICENSE](./LICENSE) and the original project’s license, credits and third-party asset notices.
+See [LICENSE](./LICENSE) and the original project credits.
