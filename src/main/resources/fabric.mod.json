@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "rongmc_cinematic_lyrics",
+  "version": "0.1.1+26.3",
+  "name": "RongMC Cinematic Lyrics",
+  "description": "Shows MuoniumPlayer lyrics and available translations inside the Ji AFK Cinematic lower bar.",
+  "environment": "client",
+  "mixins": [
+    "rongmc-cinematic-lyrics.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "ji-afk-cinematic": "2.4.0"
+  },
+  "suggests": {
+    "muonium": ">=2.5.2"
+  },
+  "license": "GPL-3.0"
+}
